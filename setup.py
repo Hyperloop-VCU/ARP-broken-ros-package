@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'broken_ros_package'
+package_name = 'ARP-broken-ros-package'
 
 setup(
     name=package_name,

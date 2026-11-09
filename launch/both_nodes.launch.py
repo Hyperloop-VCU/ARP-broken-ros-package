@@ -4,7 +4,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
     return LaunchDescription([
         Node(
-            package='broken_ros_package',
+            package='ARP-broken-ros-package',
             executable='pub_node',
             name='PublisherNode'
         ),
